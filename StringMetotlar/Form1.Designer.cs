@@ -53,6 +53,7 @@
             this.btnTRIM.TabIndex = 44;
             this.btnTRIM.Text = "TRIM";
             this.btnTRIM.UseVisualStyleBackColor = true;
+            this.btnTRIM.Click += new System.EventHandler(this.btnTRIM_Click);
             // 
             // btnTOCHARARRAY
             // 
@@ -62,6 +63,7 @@
             this.btnTOCHARARRAY.TabIndex = 43;
             this.btnTOCHARARRAY.Text = "TOCHARARRAY";
             this.btnTOCHARARRAY.UseVisualStyleBackColor = true;
+            this.btnTOCHARARRAY.Click += new System.EventHandler(this.btnTOCHARARRAY_Click);
             // 
             // btnSUBSTRING
             // 
@@ -71,6 +73,7 @@
             this.btnSUBSTRING.TabIndex = 42;
             this.btnSUBSTRING.Text = "SUBSTRING";
             this.btnSUBSTRING.UseVisualStyleBackColor = true;
+            this.btnSUBSTRING.Click += new System.EventHandler(this.btnSUBSTRING_Click);
             // 
             // btnTOLOWERTOUPPER
             // 
@@ -80,6 +83,7 @@
             this.btnTOLOWERTOUPPER.TabIndex = 41;
             this.btnTOLOWERTOUPPER.Text = "TOLOWER - TOUPPER";
             this.btnTOLOWERTOUPPER.UseVisualStyleBackColor = true;
+            this.btnTOLOWERTOUPPER.Click += new System.EventHandler(this.btnTOLOWERTOUPPER_Click);
             // 
             // btnINSERT
             // 
@@ -89,6 +93,7 @@
             this.btnINSERT.TabIndex = 40;
             this.btnINSERT.Text = "INSERT";
             this.btnINSERT.UseVisualStyleBackColor = true;
+            this.btnINSERT.Click += new System.EventHandler(this.btnINSERT_Click);
             // 
             // btnSPLIT
             // 
@@ -98,6 +103,7 @@
             this.btnSPLIT.TabIndex = 39;
             this.btnSPLIT.Text = "SPLIT";
             this.btnSPLIT.UseVisualStyleBackColor = true;
+            this.btnSPLIT.Click += new System.EventHandler(this.btnSPLIT_Click);
             // 
             // btnREPLACE
             // 
@@ -107,6 +113,7 @@
             this.btnREPLACE.TabIndex = 38;
             this.btnREPLACE.Text = "REPLACE";
             this.btnREPLACE.UseVisualStyleBackColor = true;
+            this.btnREPLACE.Click += new System.EventHandler(this.btnREPLACE_Click);
             // 
             // btnREMOVE
             // 
@@ -116,6 +123,7 @@
             this.btnREMOVE.TabIndex = 37;
             this.btnREMOVE.Text = "REMOVE";
             this.btnREMOVE.UseVisualStyleBackColor = true;
+            this.btnREMOVE.Click += new System.EventHandler(this.btnREMOVE_Click);
             // 
             // btnLASTINDEXOF
             // 
@@ -125,6 +133,7 @@
             this.btnLASTINDEXOF.TabIndex = 36;
             this.btnLASTINDEXOF.Text = "LASTINDEXOF";
             this.btnLASTINDEXOF.UseVisualStyleBackColor = true;
+            this.btnLASTINDEXOF.Click += new System.EventHandler(this.btnLASTINDEXOF_Click);
             // 
             // btnINDEXOF
             // 
@@ -134,6 +143,7 @@
             this.btnINDEXOF.TabIndex = 35;
             this.btnINDEXOF.Text = "INDEXOF";
             this.btnINDEXOF.UseVisualStyleBackColor = true;
+            this.btnINDEXOF.Click += new System.EventHandler(this.btnINDEXOF_Click);
             // 
             // btnENDSWITH
             // 
@@ -143,6 +153,7 @@
             this.btnENDSWITH.TabIndex = 34;
             this.btnENDSWITH.Text = "ENDSWITH";
             this.btnENDSWITH.UseVisualStyleBackColor = true;
+            this.btnENDSWITH.Click += new System.EventHandler(this.btnENDSWITH_Click);
             // 
             // btnSTARTSWITH
             // 
@@ -152,6 +163,7 @@
             this.btnSTARTSWITH.TabIndex = 33;
             this.btnSTARTSWITH.Text = "STARTSWITH";
             this.btnSTARTSWITH.UseVisualStyleBackColor = true;
+            this.btnSTARTSWITH.Click += new System.EventHandler(this.btnSTARTSWITH_Click);
             // 
             // btnCONTAINS
             // 
@@ -161,6 +173,7 @@
             this.btnCONTAINS.TabIndex = 32;
             this.btnCONTAINS.Text = "CONTAINS";
             this.btnCONTAINS.UseVisualStyleBackColor = true;
+            this.btnCONTAINS.Click += new System.EventHandler(this.btnCONTAINS_Click);
             // 
             // txtGirisAlani
             // 
@@ -177,6 +190,7 @@
             this.btnCOMPARETO.TabIndex = 30;
             this.btnCOMPARETO.Text = "COMPARE TO";
             this.btnCOMPARETO.UseVisualStyleBackColor = true;
+            this.btnCOMPARETO.Click += new System.EventHandler(this.btnCOMPARETO_Click);
             // 
             // Form1
             // 
@@ -200,6 +214,7 @@
             this.Controls.Add(this.btnCOMPARETO);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
